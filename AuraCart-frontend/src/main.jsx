@@ -8,39 +8,21 @@ import Login from "./routes/Login.jsx";
 import Register from "./routes/Register.jsx";
 import Profile from "./routes/Profile.jsx";
 import Wishlist from "./routes/Wishlist.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store/index.js";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/bag",
-        element: <Bag />,
-      },
-      {
-        path: "/login",
-        element: <Login />,
-      },
-      {
-        path: "/register",
-        element: <Register />,
-      },
-      {
-        path: "/profile",
-        element: <Profile />,
-      },
-      {
-        path: "/wishlist",
-        element: <Wishlist />,
-      },
+      { path: "/", element: <Home /> },
+      { path: "/bag", element: <Bag /> },
+      { path: "/login", element: <Login /> },
+      { path: "/register", element: <Register /> },
+      { path: "/profile", element: <Profile /> },
+      { path: "/wishlist", element: <Wishlist /> },
     ],
   },
 ]);
