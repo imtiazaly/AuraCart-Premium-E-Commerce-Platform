@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-1 sm:gap-1">
-              <img src="/images/rem-bg-logo.png" alt="AuraCart Logo" className="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105" onError={(e) => {
+              <img src="./images/rem-bg-logo.png" alt="AuraCart Logo" className="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105" onError={(e) => {
                 e.target.style.display = 'none';
               }} />
               <span className="text-2xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-brand-accent2 to-brand-accent1">

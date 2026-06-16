@@ -41,7 +41,7 @@ const Header = () => {
           <div className="flex-shrink-0 flex items-center mr-8 lg:mr-12">
             <Link to="/" className="flex items-center gap-1 group">
               <img
-                src="/images/rem-bg-logo.png"
+                src="./images/rem-bg-logo.png"
                 alt="AuraCart Logo"
                 className="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                 onError={(e) => {
