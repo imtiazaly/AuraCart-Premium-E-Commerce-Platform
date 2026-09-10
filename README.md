@@ -38,7 +38,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
 
 ### Step 1: Clone the Repository
 ```bash
-git https://github.com/Imtiaz-Ali17314/AuraCart-Premium-E-Commerce-Platform.git
+git https://github.com/imtiazaly/AuraCart-Premium-E-Commerce-Platform.git
 cd AuraCart-Premium-E-Commerce-Platform/AuraCart-frontend
 ```
 

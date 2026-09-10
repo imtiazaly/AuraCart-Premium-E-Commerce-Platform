@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://imtiaz-ali17314.github.io/AuraCart-Premium-E-Commerce-Platform",
+  "homepage": "https://imtiazaly.github.io/AuraCart-Premium-E-Commerce-Platform",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
